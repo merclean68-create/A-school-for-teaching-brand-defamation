@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>شركة تعليم تسليط الضوء على العلامات التجارية</title>
+  <title> شركة تعليم تسليط الضوء على العلامات التجارية  </title>
   <style>
     body {
       margin: 0;
@@ -32,6 +32,17 @@
       left: 20px;
       width: 60px;
       height: 60px;
+      header {
+  background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/A_digital_photograph_used_as_a_website_header_back.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+}
     }
     nav {
       background: #111;
