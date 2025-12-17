@@ -33,16 +33,6 @@
       width: 60px;
       height: 60px;
       header {
-  background:
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("images/A_digital_photograph_used_as_a_website_header_back.png");
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  padding: 60px 20px;
-  text-align: center;
-  position: relative;
-}
     }
     nav {
       background: #111;
