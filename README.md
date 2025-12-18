@@ -1,217 +1,248 @@
+[style.css](https://github.com/user-attachments/files/24226492/style.css)[index.html](https://github.com/user-attachments/files/24226481/index.html)
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> شركة تعليم تسليط الضوء على العلامات التجارية  </title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Tahoma, Arial, sans-serif;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(135deg, #000, #444);
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-      position: relative;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-    header p {
-      font-size: 18px;
-      margin-top: 10px;
-    }
-    header img {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 60px;
-      height: 60px;
-      header {
-    }
-    nav {
-      background: #111;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: #f0c040;
-    }
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 20px;
-    }
-    .section {
-      background: #fff;
-      margin-bottom: 20px;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .section h2 {
-      margin-top: 0;
-      color: #222;
-    }
-    .brands {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .brand-card {
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 15px;
-      text-align: center;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .brand-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-    }
-    .brand-card img {
-      max-width: 100px;
-      margin-bottom: 10px;
-    }
-    .brand-card h3 {
-      margin: 10px 0 5px;
-    }
-    .brand-card p {
-      font-size: 14px;
-      color: #555;
-    }
-    footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
-    }
-    .price-section {
-      background: #ffd700;
-      color: #000;
-      padding: 30px;
-      text-align: center;
-      font-size: 22px;
-      font-weight: bold;
-      border-radius: 8px;
-      margin-bottom: 40px;
-    }
-    .style-options {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin: 20px 0;
-    }
-    .style-card {
-      background: #fff;
-      padding: 15px 25px;
-      border-radius: 8px;
-      border: 1px solid #ddd;
-      font-weight: bold;
-      cursor: pointer;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .style-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-    }
-    .programming-box, .law-box {
-      background: #222;
-      color: #fff;
-      padding: 40px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-      border-radius: 8px;
-      margin: 20px auto;
-      max-width: 900px;
-    }
-    .contact-link {
-      color: #1a73e8;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .contact-link:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة العلامات التجارية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/2048px-Mercedes-Logo.svg.png" alt="Logo">
-    <h1> شركة تعليم تسليط الضوء على العلامات التجارية< /h1>
-    <p> موقعك الخاص لتشهير المنتج وتسليط الضوء على العلامات التجارية </p>
-  </header>
+<!-- رأس الموقع -->
+<header>
+    <div class="container">
+        <h1> مدرسة تعليم نسليط الضوء العلامات التجارية </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#courses">الدورات</a></li>
+                <li><a href="#gallery">معرض الدورة</a></li>
+                <li><a href="#team">فريقنا</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-  <div>  <class="style-options">
-    <div> class="style-card">Style Arabic</div>
-    <div> class="style-card">Style Americ</div>
-    <div> class="style-card">Style Francais</div>
-  </div>
+<!-- القسم الترحيبي -->
+<section class="hero">
+    <div class="container" data-aos="fade-up">
+        <h2>تعلم فن تسليط الضوء على العلامات التجارية</h2>
+        <p>نحن نعلمك استراتيجيات تسويق العلامات التجارية بطريقة عملية ومبتكرة.</p>
+        <a href="#courses" class="btn">ابدأ التعلم الآن</a>
+    </div>
+</section>
 
-  <div class="programming-box">
-    برمجت شخصية بطريقة متطورة ولبقة في جذب وتشهير
-  </div>
+<!-- من نحن -->
+<section id="about" class="about" data-aos="fade-right">
+    <div class="container">
+        <h2>من نحن</h2>
+        <p>مدرستنا متخصصة في تعليم طرق إبراز العلامات التجارية، إنشاء محتوى جذاب، وفهم سلوك العملاء للوصول للنجاح.</p>
+    </div>
+</section>
 
-  <div class="law-box">
-    قانون الجذب
-  </div>
+<!-- الدورات -->
+<section id="courses" class="courses" data-aos="fade-left">
+    <div class="container">
+        <h2>الدورات التدريبية</h2>
+        <div class="course-cards">
+            <div class="course-card" data-aos="zoom-in">
+                <h3>تسويق العلامات التجارية</h3>
+                <p>تعلم استراتيجيات بناء وترويج العلامات التجارية بشكل احترافي.</p>
+            </div>
+            <div class="course-card" data-aos="zoom-in">
+                <h3>تصميم المحتوى</h3>
+                <p>إبداع محتوى جذاب ومؤثر على منصات التواصل الاجتماعي.</p>
+            </div>
+            <div class="course-card" data-aos="zoom-in">
+                <h3>تحليل السوق</h3>
+                <p>فهم العملاء والسوق لتحسين نتائج العلامات التجارية.</p>
+            </div>
+        </div>
+        <div class="enroll" data-aos="fade-up">
+            <h3>احجز دورتك الآن</h3>
+            <div id="paypal-button-container"></div>
+        </div>
+    </div>
+</section>
 
-  <nav>
-    <a href="#about">عن الموقع</a>
-    <a href="#brands">العلامات التجارية</a>
-    <a href="#contact">تواصل معنا</a>
-  </nav>
+<!-- معرض الدورة -->
+<section id="gallery" class="gallery" data-aos="fade-up">
+    <div class="container">
+        <h2>معرض الدورة</h2>
+        <div class="gallery-items">
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="images/course1.jpg" alt="Course Image 1">
+            </div>
+            <div class="gallery-item" data-aos="zoom-in">
+                <video controls>
+                    <source src="videos/course-intro.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="images/course2.jpg" alt="Course Image 2">
+            </div>
+        </div>
+    </div>
+</section>
 
-  <div class="container">
-    <section id="about" class="section">
-      <h2>عن الموقع</h2>
-      <p>
-        هذا الموقع مخصص لتقديم وعرض المنتجات والعلامات التجارية بطريقة احترافية،
-        مع تسليط الضوء على نقاط القوة، الجودة، والتصميم، بهدف مساعدة الزوار على
-        التعرف على أفضل العلامات في السوق.
-      </p>
-    </section>
+<!-- فريقنا -->
+<section id="team" class="team" data-aos="fade-left">
+    <div class="container">
+        <h2>فريقنا</h2>
+        <div class="team-cards">
+            <div class="team-card" data-aos="flip-left">
+                <img src="images/team1.jpg" alt="Team Member">
+                <h3>أحمد</h3>
+                <p>خبير تسويق العلامات التجارية</p>
+            </div>
+            <div class="team-card" data-aos="flip-left">
+                <img src="images/team1.jpg" alt="Team Member">
+                <h3>ليلى</h3>
+                <p>مصممة محتوى وميديا</p>
+            </div>
+            <div class="team-card" data-aos="flip-left">
+                <img src="images/team1.jpg" alt="Team Member">
+                <h3>سامي</h3>
+                <p>محلل سوق واستراتيجيات</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <section id="brands" class="section">
-      <h2>العلامات التجارية المميزة</h2>
-      <div class="brands">
-        <!-- الخانات السابقة موجودة هنا -->
-      </div>
-    </section>
+<!-- تواصل معنا -->
+<section id="contact" class="contact" data-aos="fade-up">
+    <div class="container">
+        <h2>تواصل معنا</h2>
+        <form>
+            <input type="text" placeholder="الاسم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+</section>
 
-    <section class="price-section">
-      ثمن الاشتراك: 300 DA للشهر
-    </section>
+<!-- تذييل الموقع -->
+<footer>
+    <div class="container">
+        <p>&copy; 2025 مدرسة العلامات التجارية. كل الحقوق محفوظة.</p>
+    </div>
+</footer>
 
-    <section id="contact" class="section">
-      <h2>تواصل معنا</h2>
-      <p>للتواصل أو إضافة علامتك التجارية للموقع، راسلنا عبر الفيسبوك:</p>
-      <p><a class="contact-link" href="https://www.facebook.com/XxmerxX1" target="_blank">صفحة الفيسبوك الخاصة بنا</a></p>
-    </section>
-  </div>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
 
-  <footer>
-    © 2025 - جميع الحقوق محفوظة | شركة تعليم تسليط الضوء على العلامات التجارية
-  </footer>
+  paypal.Buttons({
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{ amount: { value: '50.00' } }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('تم الدفع بنجاح! شكراً لك ' + details.payer.name.given_name);
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
+[script.js](https://github.com/user-attachments/files/24226487/script.js)
+// تغيير الألوان ديناميكياً
+function changeTheme(primary, secondary) {
+    document.documentElement.style.setProperty('--primary-color', primary);
+    document.documentElement.style.setProperty('--secondary-color', secondary);
+}
+[Uploadin:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #ffc107;
+}
 
+body {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    direction: rtl;
+    color: #333;
+}
+
+/* رأس الموقع */
+header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 20px 0;
+}
+header h1 { text-align: center; margin: 0; }
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+header nav ul li { margin: 0 15px; }
+header nav ul li a {
+    color: #fff; text-decoration: none; font-weight: bold;
+}
+
+/* القسم الترحيبي */
+.hero {
+    background: url('images/course1.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+.hero .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: var(--secondary-color);
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* الأقسام */
+section { padding: 80px 0; text-align: center; }
+.course-cards, .team-cards, .gallery-items { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.course-card, .team-card, .gallery-item {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.team-card img { width: 100%; border-radius: 10px; }
+.gallery-item img, .gallery-item video { width: 100%; border-radius: 10px; }
+
+/* النموذج */
+.contact form { display: flex; flex-direction: column; max-width: 500px; margin: auto; }
+.contact input, .contact textarea { margin-bottom: 15px; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+.contact button { padding: 10px; border: none; background: var(--primary-color); color: #fff; font-weight: bold; cursor: pointer; border-radius: 5px; }
+
+/* التذييل */
+footer { background: #333; color: #fff; padding: 20px 0; }
+
+/* Theme Switcher */
+.theme-switcher { text-align: center; margin: 30px 0; }
+.theme-switcher button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+g style.css…]()
+<body>
+<video>https://www.youtube.com/watch?v=Gpgb0SQ2Ii0<video>
+<img><img width="347" height="145" alt="téléchargement" src="https://github.com/user-attachments/assets/d36e94e6-0c42-4922-a674-d6940939cb36" /> <img>
 </body>
 </html>
-```
-
-الآن قسم التواصل يحتوي على **رابط فيسبوك** قابل للنقر ويفتح في نافذة جديدة.  
-
-إذا أحببت، أستطيع أيضًا إضافة **أيقونات اجتماعية صغيرة أعلى الفوتر** لتسهيل الوصول للفيسبوك وربما إنستغرام أو تويتر. تريد أن أفعل ذلك؟
