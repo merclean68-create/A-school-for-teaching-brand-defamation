@@ -168,7 +168,8 @@ brand-school/
 [style.css](https://github.com/user-attachments/files/24226732/style.css)
 <footer>
   <p>تابعنا على
-    <a href="https://www.facebook.com/اسم_صفحتك" target="_blank">
+    <a href="https://www.facebook.com/XxmerxX1/" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=61585426045659" target="_blank">
       فيسبوك
     </a>
   </p>
