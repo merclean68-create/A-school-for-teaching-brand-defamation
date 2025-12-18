@@ -152,14 +152,14 @@
 
   <header>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/2048px-Mercedes-Logo.svg.png" alt="Logo">
-    <h1>شركة تعليم تسليط الضوء على العلامات التجارية</h1>
-    <p>موقعك الخاص لتشهير المنتج وتسليط الضوء على العلامات التجارية</p>
+    <h1> شركة تعليم تسليط الضوء على العلامات التجارية< /h1>
+    <p> موقعك الخاص لتشهير المنتج وتسليط الضوء على العلامات التجارية </p>
   </header>
 
-  <div class="style-options">
-    <div class="style-card">Style Arabic</div>
-    <div class="style-card">Style Americ</div>
-    <div class="style-card">Style Francais</div>
+  <div>  <class="style-options">
+    <div> class="style-card">Style Arabic</div>
+    <div> class="style-card">Style Americ</div>
+    <div> class="style-card">Style Francais</div>
   </div>
 
   <div class="programming-box">
