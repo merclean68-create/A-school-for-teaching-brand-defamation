@@ -91,20 +91,20 @@
 <!-- فريقنا -->
 <section id="team" class="team" data-aos="fade-left">
     <div class="container">
-        <h2>فريقنا</h2>
+        <h2>لي تتعلم معي </h2>
         <div class="team-cards">
             <div class="team-card" data-aos="flip-left">
-                <img src="images/team1.jpg" alt="Team Member">
-                <h3>MER</h3>
+                <img src="gallery-item" data-aos="zoom-in"> " alt="Team Member">
+                <h3> MER </h3>
                 <p>خبير تسويق العلامات التجارية</p>
             </div>
             <div class="team-card" data-aos="flip-left">
-                <img src="images/team1.jpg" alt="Team Member">
+                <img src="gallery-item" data-aos="zoom-in">" alt="Team Member">
                 <h3> MERh3>
                 <p>مصممة محتوى وميديا</p>
             </div>
             <div class="team-card" data-aos="flip-left">
-                <img src="images/team1.jpg" alt="Team Member">
+                <img src="gallery-item" data-aos="zoom-in">" alt="Team Member">
                 <h3>MER1</h3>
                 <p>محلل سوق واستراتيجيات</p>
             </div>
@@ -121,6 +121,7 @@
             <input type="email" placeholder="البريد الإلكتروني" required>
             <textarea placeholder="رسالتك" required></textarea>
             <button type="submit">إرسال</button>
+               <button type="submit">إرسال</button>   <LINK>= https://www.facebook.com/profile.php?id=61585426045659 <LINK>  <LINK> = https://www.facebook.com/XxmerxX1/<LINK>
         </form>
     </div>
 </section>
