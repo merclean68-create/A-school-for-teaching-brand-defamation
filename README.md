@@ -96,17 +96,17 @@
         <div class="team-cards">
             <div class="team-card" data-aos="flip-left">
                 <img src="images/team1.jpg" alt="Team Member">
-                <h3>أحمد</h3>
+                <h3>MER</h3>
                 <p>خبير تسويق العلامات التجارية</p>
             </div>
             <div class="team-card" data-aos="flip-left">
                 <img src="images/team1.jpg" alt="Team Member">
-                <h3>ليلى</h3>
+                <h3> MERh3>
                 <p>مصممة محتوى وميديا</p>
             </div>
             <div class="team-card" data-aos="flip-left">
                 <img src="images/team1.jpg" alt="Team Member">
-                <h3>سامي</h3>
+                <h3>MER1</h3>
                 <p>محلل سوق واستراتيجيات</p>
             </div>
         </div>
