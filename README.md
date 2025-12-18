@@ -13,6 +13,16 @@ brand-school/
 [index.html](https://github.com/user-attachments/files/24226725/index.html)
 <!DOCTYPE html>
 <html lang="ar">
+
+    <style>
+body {
+  background-image: url("<img width="347" height="145" alt="téléchargement" src="https://github.com/user-attachments/assets/866e2295-370d-4efb-bb27-8902a24a3302" />
+");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
