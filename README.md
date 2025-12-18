@@ -32,7 +32,7 @@
     <div class="container" data-aos="fade-up">
         <h2>تعلم فن تسليط الضوء على العلامات التجارية</h2>
         <p>نحن نعلمك استراتيجيات تسويق العلامات التجارية بطريقة عملية ومبتكرة.</p>
-        <a href="#courses" class="btn">ابدأ التعلم الآن</a>
+       <button> <a href="#courses" class="btn">ابدأ التعلم الآن</a><button>
     </div>
 </section>
 
