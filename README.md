@@ -79,11 +79,10 @@
             </div>
             <div class="gallery-item" data-aos="zoom-in">
                 <video controls>
-                    <source src="videos/course-intro.mp4" type="video/mp4">
+                    <source src="videos/course-intro.mp4" type="https://www.youtube.com/watch?v=Gpgb0SQ2Ii0">
                 </video>
             </div>
-            <div class="gallery-item" data-aos="zoom-in">
-                <img src="images/course2.jpg" alt="Course Image 2">
+            <div class="<img src="gallery-item" data-aos="zoom-in">" alt="Course Image 2">
             </div>
         </div>
     </div>
