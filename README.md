@@ -166,5 +166,13 @@ brand-school/
 </script>
 [script.js](https://github.com/user-attachments/files/24226731/script.js)
 [style.css](https://github.com/user-attachments/files/24226732/style.css)
+<footer>
+  <p>تابعنا على
+    <a href="https://www.facebook.com/اسم_صفحتك" target="_blank">
+      فيسبوك
+    </a>
+  </p>
+</footer>
+
 </body>
 </html>
