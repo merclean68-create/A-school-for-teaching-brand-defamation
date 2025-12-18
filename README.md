@@ -17,11 +17,11 @@
         <h1> مدرسة تعليم نسليط الضوء العلامات التجارية </h1>
         <nav>
             <ul>
-                <li><a href="#about">من نحن</a></li>
-                <li><a href="#courses">الدورات</a></li>
-                <li><a href="#gallery">معرض الدورة</a></li>
-                <li><a href="#team">فريقنا</a></li>
-                <li><a href="#contact">تواصل معنا</a></li>
+                <li><a <button> href="#about">من نحن</a></li> <button>
+                <li><a <button> href="#courses">الدورات</a></li><button>
+                <li><a<button> href="#gallery">معرض الدورة</a></li><button>
+                <li><a <button>href="#team">فريقنا</a></li><button>
+                <li><a<button> href="#contact">تواصل معنا</a></li><button>
             </ul>
         </nav>
     </div>
