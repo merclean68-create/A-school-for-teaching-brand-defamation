@@ -1,4 +1,16 @@
-[style.css](https://github.com/user-attachments/files/24226492/style.css)[index.html](https://github.com/user-attachments/files/24226481/index.html)
+[nouveau 1.txt](https://github.com/user-attachments/files/24226720/nouveau.1.txt)
+brand-school/
+│
+├─ index.html
+├─ style.css
+├─ script.js
+├─ images/
+│   ├─ course1.jpg
+│   ├─ course2.jpg
+│   └─ team1.jpg
+├─ videos/
+│   └─ course-intro.mp4
+[index.html](https://github.com/user-attachments/files/24226725/index.html)
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -14,14 +26,14 @@
 <!-- رأس الموقع -->
 <header>
     <div class="container">
-        <h1> مدرسة تعليم نسليط الضوء العلامات التجارية </h1>
+        <h1>مدرسة العلامات التجارية</h1>
         <nav>
             <ul>
-                <li><a <button> href="#about">من نحن</a></li> <button>
-                <li><a <button> href="#courses">الدورات</a></li><button>
-                <li><a<button> href="#gallery">معرض الدورة</a></li><button>
-                <li><a <button>href="#team">فريقنا</a></li><button>
-                <li><a<button> href="#contact">تواصل معنا</a></li><button>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#courses">الدورات</a></li>
+                <li><a href="#gallery">معرض الدورة</a></li>
+                <li><a href="#team">فريقنا</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
             </ul>
         </nav>
     </div>
@@ -32,7 +44,7 @@
     <div class="container" data-aos="fade-up">
         <h2>تعلم فن تسليط الضوء على العلامات التجارية</h2>
         <p>نحن نعلمك استراتيجيات تسويق العلامات التجارية بطريقة عملية ومبتكرة.</p>
-       <button> <a href="#courses" class="btn">ابدأ التعلم الآن</a><button>
+        <a href="#courses" class="btn">ابدأ التعلم الآن</a>
     </div>
 </section>
 
@@ -79,10 +91,11 @@
             </div>
             <div class="gallery-item" data-aos="zoom-in">
                 <video controls>
-                    <source src="videos/course-intro.mp4" type="https://www.youtube.com/watch?v=Gpgb0SQ2Ii0">
+                    <source src="videos/course-intro.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="<img src="gallery-item" data-aos="zoom-in">" alt="Course Image 2">
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="images/course2.jpg" alt="Course Image 2">
             </div>
         </div>
     </div>
@@ -91,21 +104,21 @@
 <!-- فريقنا -->
 <section id="team" class="team" data-aos="fade-left">
     <div class="container">
-        <h2>لي تتعلم معي </h2>
+        <h2>فريقنا</h2>
         <div class="team-cards">
             <div class="team-card" data-aos="flip-left">
-                <img src="gallery-item" data-aos="zoom-in"> " alt="Team Member">
-                <h3> MER </h3>
+                <img src="images/team1.jpg" alt="Team Member">
+                <h3> mer </h3>
                 <p>خبير تسويق العلامات التجارية</p>
             </div>
             <div class="team-card" data-aos="flip-left">
-                <img src="gallery-item" data-aos="zoom-in">" alt="Team Member">
-                <h3> MERh3>
+                <img src="images/team1.jpg" alt="Team Member">
+                <h3> mer </h3>
                 <p>مصممة محتوى وميديا</p>
             </div>
             <div class="team-card" data-aos="flip-left">
-                <img src="gallery-item" data-aos="zoom-in">" alt="Team Member">
-                <h3>MER1</h3>
+                <img src="images/team1.jpg" alt="Team Member">
+                <h3>mer</h3>
                 <p>محلل سوق واستراتيجيات</p>
             </div>
         </div>
@@ -121,7 +134,6 @@
             <input type="email" placeholder="البريد الإلكتروني" required>
             <textarea placeholder="رسالتك" required></textarea>
             <button type="submit">إرسال</button>
-               <button type="submit">إرسال</button>   <LINK>= https://www.facebook.com/profile.php?id=61585426045659 <LINK>  <LINK> = https://www.facebook.com/XxmerxX1/<LINK>
         </form>
     </div>
 </section>
@@ -152,97 +164,7 @@
       }
   }).render('#paypal-button-container');
 </script>
-[script.js](https://github.com/user-attachments/files/24226487/script.js)
-// تغيير الألوان ديناميكياً
-function changeTheme(primary, secondary) {
-    document.documentElement.style.setProperty('--primary-color', primary);
-    document.documentElement.style.setProperty('--secondary-color', secondary);
-}
-[Uploadin:root {
-    --primary-color: #0d6efd;
-    --secondary-color: #ffc107;
-}
-
-body {
-    font-family: 'Cairo', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    direction: rtl;
-    color: #333;
-}
-
-/* رأس الموقع */
-header {
-    background: var(--primary-color);
-    color: #fff;
-    padding: 20px 0;
-}
-header h1 { text-align: center; margin: 0; }
-header nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-}
-header nav ul li { margin: 0 15px; }
-header nav ul li a {
-    color: #fff; text-decoration: none; font-weight: bold;
-}
-
-/* القسم الترحيبي */
-.hero {
-    background: url('images/course1.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 150px 0;
-}
-.hero .btn {
-    display: inline-block;
-    padding: 10px 25px;
-    background: var(--secondary-color);
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-/* الأقسام */
-section { padding: 80px 0; text-align: center; }
-.course-cards, .team-cards, .gallery-items { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
-.course-card, .team-card, .gallery-item {
-    background: #f7f7f7;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-.team-card img { width: 100%; border-radius: 10px; }
-.gallery-item img, .gallery-item video { width: 100%; border-radius: 10px; }
-
-/* النموذج */
-.contact form { display: flex; flex-direction: column; max-width: 500px; margin: auto; }
-.contact input, .contact textarea { margin-bottom: 15px; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
-.contact button { padding: 10px; border: none; background: var(--primary-color); color: #fff; font-weight: bold; cursor: pointer; border-radius: 5px; }
-
-/* التذييل */
-footer { background: #333; color: #fff; padding: 20px 0; }
-
-/* Theme Switcher */
-.theme-switcher { text-align: center; margin: 30px 0; }
-.theme-switcher button {
-    padding: 10px 15px;
-    margin: 0 5px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #fff;
-}
-g style.css…]()
-<body>
-<video>https://www.youtube.com/watch?v=Gpgb0SQ2Ii0<video>
-<img><img width="347" height="145" alt="téléchargement" src="https://github.com/user-attachments/assets/d36e94e6-0c42-4922-a674-d6940939cb36" /> <img>
+[script.js](https://github.com/user-attachments/files/24226731/script.js)
+[style.css](https://github.com/user-attachments/files/24226732/style.css)
 </body>
 </html>
